@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Charm');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+body{
+	background-color: #EAD6D1;
+}
+.page-container{
+	position: relative;
+}
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+img:hover{
+	transform: scale(1.3);
+	transition: 1.7s;
+}
+#header-img{
+	height: 75px;
+	width: 75px;
+}
+#nav-bar {
+background-color: #353735;
+width: 100%;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+label{
+	color: red;
+}
+.nav-link {
+  margin: 23px;
+  padding: 11px;
+  font-size: 25px;
+  color: rgb(51,51,51);
+}
+label:hover{
+	color:white;
+}
+.form-container{
+	margin-top: 125px;
+}
+#email{
+	margin-top: 15px;
+	text-align: center;
+}
+#submit{
+	margin-top: 15px;
+	text-align: center;
+}
+.erangel{
+	font-weight: 900;
+	margin: 20px 20px;
+	border-radius: 5px;
+	background-image: url(https://i.ytimg.com/vi/yJpW5gii2fE/maxresdefault.jpg);
+	background-blend-mode: lighten;
+}
+.miramir{
+	font-weight: 900;
+	margin: 20px 20px;
+	border-radius: 5px;
+	background-image: url(https://st1.bgr.in/wp-content/uploads/2018/04/PUBG-update.jpg);
+	@media (max-width: 720px) {
+    position: relative;
+  }
+}
+.sanhok{
+	font-weight: 900;
+	margin: 20px 20px;
+	border-radius: 5px;
+	background-image: url(https://image.redbull.com/rbcom/052/2018-06-14/9378e1e2-83cd-42e1-a37d-b9d640ee2f23/0012/0/0/113/1200/1913/1300/1/pubg-sanhok-temples.jpg);
+}
+img{
+	width: 100%;
+	height: 100%;
+
+}
+
+h1{
+	text-shadow: 2px 2px #F5E6E2;
+	text-align: center;
+	font-family: 'Charm', cursive;
+}
+p{
+	color: #1BF00D;
+	line-height: 3.2;
+	font-size: 15px;
+	font-family: 'Courgette', cursive;
+}
+
+.flex-container{
+	margin:50px 50px;
+	display: flex;
+	justify-content: center;
+}
+.flex-container > div{
+	padding: 20px;
+	background-color: #F6E4DF;
+	border-color: #D85C3A;
+}
