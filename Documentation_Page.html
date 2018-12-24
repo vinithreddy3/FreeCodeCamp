@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Documentation Page
+	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="CSS_Documentation.css">
+</head>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="size">
+				<nav id="navbar">
+				<HEADER>JS Documentation</HEADER><br><br>
+				<ul nav nav-pills nav-stacked>
+					<a class="nav-link" href="#Introduction"><li>JS Introduction</li></a><br>
+					<a class="nav-link" href="#Statements"><li>JS Statements</li></a><br>
+					<a class="nav-link" href="#Variables"><li>JS Variables</li></a><br>
+					<a class="nav-link" href="#Operators"><li>JS Operators</li></a><br>
+					<a class="nav-link" href="#Data_Types"><li>JS Data Types</li></a><br>
+					<a class="nav-link" href="#Strings"><li>JS Strings</li></a><br>
+					<a class="nav-link" href="#Arrays"><li>JS Arrays</li></a><br>
+					<a class="nav-link" href="#References"><li>References</li></a><br>
+				</ul></nav>
+				</div>
+			</div>
+<main id="main-doc">
+			<div class="col-md-9">
+				<section class="main-section" id="Introduction">
+		<header>Introduction</header>
+		<ul class="box">
+			<li><p>JavaScript is to program the behavior of web pages</p></li>
+			<li><p>Web pages are not the only place where JavaScript is used. Many desktop and server programs use JavaScript.Node.js is the best known. Some databases, like MongoDB and CouchDB, also use JavaScript as their programming language.</p></li>
+		</ul>
+	</section>
+
+	<section class="main-section" id="Statements">
+		<header>Statements</header>
+		<ul class="box">
+			<li><p>JavaScript statements are composed of:<br>Values<br>Operators<br>Expressions<br>Keywords<br>Comments.
+			</p></li>
+			<li><p>The statements are executed, one by one, in the same order as they are written.</p></li>
+			<li><p>Semicolons separate JavaScript statements.</p></li>
+		</ul>
+		<code>
+				var a, b, c;<br>
+				a = 5;<br>
+				b = 6;<br>
+				c = a + b;
+			</code>
+	</section>
+	<section class="main-section" id="Variables">
+		<header>Variables</header>
+		<ul class="box">
+			<li><p>All JavaScript variables must be identified with unique names.These unique names are called identifiers.</p></li>
+			<li><p>Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).</p></li>
+		</ul>
+		<code>
+			var pi = 3.14;<br>
+			var person = "John Doe";<br>
+			var answer = 'Yes I am!';
+		</code>
+	</section>
+	<section class="main-section" id="Operators">
+		<header>Operators</header>
+		<ul class="box">
+			<li><p>Arithmetic operators are used to perform arithmetic on numbers</p></li>
+			<li><p>Assignment operators assign values to JavaScript variables.</p></li>
+			<li><p>The + operator can also be used to add (concatenate) strings.</p></li>
+		</ul>
+		<code>
+			var x = 5;<br>
+			var y = 2;<br>
+			var z = x + y;<br>
+			var z = x * y;<br>
+			x += 5;
+		</code>
+	</section>
+	<section class="main-section" id="Data_Types">
+		<header>Data Types</header>
+		<ul class="box">
+			<li><p>JavaScript variables can hold many data types: numbers, strings, objects and more</p></li>
+			<li><p>When adding a number and a string, JavaScript will treat the number as a string.</p></li>
+			<li><p>JavaScript evaluates expressions from left to right. Different sequences can produce different results</p></li>
+		</ul>
+		<code>
+			var length = 16;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Number<br>
+			var lastName = "Johnson"; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // String<br>
+			var x = {firstName:"John", lastName:"Doe"};    // Object
+		</code>
+	</section>
+	<section class="main-section" id="Strings">
+		<header>Strings</header>
+		<ul class="box">
+			<li><p>JavaScript strings are used for storing and manipulating text.</p></li>
+			<li><p>A JavaScript string is zero or more characters written inside quotes.</p></li>
+			<li><p>You can use quotes inside a string, as long as they don't match the quotes surrounding the string</p></li>
+		</ul>
+		<code>
+			var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";<br>
+			var sln = txt.length;<br>
+			var x = "The character \\ is called backslash.";
+		</code>
+	</section>
+	<section class="main-section" id="Arrays">
+		<header>Arrays</header>
+		<ul class="box">
+			<li><p>JavaScript arrays are used to store multiple values in a single variable.</p></li>
+			<li><p>An array can hold many values under a single name, and you can access the values by referring to an index number.</p></li>
+			<li><p>Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.</p></li>
+		</ul>
+		<code>
+			var cars = ["Saab", "Volvo", "BMW"];<br>
+			var cars = new Array("Saab", "Volvo", "BMW");<br>
+			var name = cars[0];
+		</code>
+	</section>
+	<section class="main-section" id="Arrays">
+		<header>All this information is inherited from <a href="https://www.w3schools.com/js/default.asp">W3SCHOOLS</a></header>
+	</section>
+			</div>
+		</div>
+	</div>
+</main>
+</html>
