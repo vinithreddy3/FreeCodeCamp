@@ -55,7 +55,7 @@ code:hover{
 	border-radius: 25px;
 	background-color: #CCF0CC;
 }
-@media(max-width: 900px) {
+@media(max-width: 1150px) {
     .size
     {
     	text-align: center;
