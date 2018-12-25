@@ -1,0 +1,100 @@
+<html>
+<style>
+#title{
+display: grid;
+width:100%;
+margin: auto;
+background-color: #7BD2E2;
+}
+#description{
+font-size: 35px;
+color: brown;
+text-align: center;
+}
+#survey-form{
+  font-size: 25px;
+	background-color:#E1E6E7;
+}
+#name{
+margin-left:138px;
+}
+.grid1{
+display:grid;
+margin: auto;
+}
+#email{
+margin-left:138px;
+}
+#number{
+margin-left:156px;
+}
+.center1{
+	margin-left: 200px;
+}
+.label1{
+	margin-left: 25%;
+}
+.box1{
+		margin-left: 29%;
+}
+.technology1{
+	margin-left:5.6%;
+}
+.suggestions1{
+	margin-left:38.5%;
+}
+#submit{
+font-size: 20px;
+background-color: red;
+margin-left: 40%;
+}
+</style>
+
+<body bgcolor="8D9C9F" class="grid1">
+<h1 id="title"><center>WAY TO DELIVER BEST SERVICE IS BY KNOWING<center></h1>
+<form id="survey-form">
+  <p id="description">Let us know how we can provide better service</p>
+  <div>
+    <label id='name-label' class="label1">Name:</label>
+    <input id="name" required placeholder="Enter your full name" class="box1">
+  </div>
+  <div>
+    <label id='email-label' class="label1">Email:</label>
+    <input id="email" type="email" required placeholder="Email">
+  </div>
+  <div>
+    <label id='number-label' class="label1">Age:</label>
+    <input id="number" type="number" min="1" max="100" placeholder="Age">
+  </div>
+  <div>
+    <label id="dropdown-label" class="label1">Technology</label>
+    <select id="dropdown" class="technology1">
+      <option></option>
+      <option>React.js</option>
+      <option>Angular</option>
+    </select>
+  </div>
+  <div>
+    <label class="label1">Preferred choice of learning</label>
+    <div class="center1">
+    <input type="radio" name="resource" value="1" class="box1"><label>YouTube Tutorials</label>
+    <br><input type="radio" value="2" name="resource" class="box1"><label>Online Courses</label>
+    <br><input type="radio" value="3" name="resource" class="box1"><label>Conventional Education</label>
+    <br><input type="radio" name="resource" value="4" class="box1"><label>Books</label>
+    </div>
+  </div>
+	<label class="label1">What are your favourite areas to explore ?</label>
+  <div id="checkboxSection" class="center1">
+    <input type="checkbox" value="1" class="box1"><label>Data Science</label><br>
+    <input type="checkbox" value="2" class="box1"><label>Front End Development</label></label><br>
+    <input type="checkbox" value="3" class="box1"><label>Back End Development</label></label><br>
+    <input type="checkbox" value="4" class="box1"><label>Full Stack Development</label>
+  </div>
+  <div>
+    <label class="label1">Suggestions<br><textarea class="suggestions1"></textarea></label>
+		<br><br>
+  <button id="submit"><center>Submit</center></button>
+	</div>
+</form>
+</body>
+</HTML>
